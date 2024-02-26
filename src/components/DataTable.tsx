@@ -2,7 +2,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import DataTable, { TableColumn } from 'react-data-table-component'; // Import TableColumn
-import { User } from '../Redux/UserSlice'; // Assuming your User type is defined here
+import { User } from '../Redux/UserSlice'; 
 
 const UserList: React.FC = () => {
   const users: User[] = useSelector((state: any) => state.users);
@@ -10,7 +10,7 @@ const UserList: React.FC = () => {
   const columns: TableColumn<User>[] = [
     { name: 'Name', selector: (row) => row.name, sortable: true },
     { name: 'Age', selector: (row) => row.age, sortable: true },
-    // Add other columns based on your user data structure
+    
   ];
 
   return (

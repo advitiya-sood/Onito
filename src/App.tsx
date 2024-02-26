@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState } from 'react';
 import { Container, CssBaseline, Paper, Tab, Tabs, Typography } from '@material-ui/core';
 import Step1Form from './components/Step1Form';
@@ -34,7 +33,7 @@ const App: React.FC = () => {
   const handleStep2Submit = (data: any) => {
     console.log('Step 2 submitted:', data);
     store.dispatch(addUser(data));
-    // Handle Step 2 submission (e.g., store data in Redux)
+    // Handle Step 2 submission 
     setActiveTab(0);
   };
 

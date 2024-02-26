@@ -1,10 +1,9 @@
-// userSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 export interface User {
   name: string;
   age: number;
-  // Add other properties based on your user data structure
+  
 }
 
 const userSlice = createSlice({

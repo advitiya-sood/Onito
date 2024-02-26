@@ -34,7 +34,7 @@ const Step2Form: React.FC<Step2FormProps> = ({ onSubmit }) => {
             )}
           />
         </Grid>
-        {/* Add other form fields similarly */}
+        
       </Grid>
       <Button type="submit" variant="contained" color="primary">Submit</Button>
     </form>

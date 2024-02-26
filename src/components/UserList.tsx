@@ -10,7 +10,7 @@ const UserList: React.FC = () => {
   const columns: TableColumn<User>[] = [
     { name: 'Name', selector: (row) => row.name, sortable: true },
     { name: 'Age', selector: (row) => row.age, sortable: true },
-    // Add other columns based on your user data structure
+    
   ];
 
   return (
